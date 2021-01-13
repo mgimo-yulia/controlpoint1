@@ -1,6 +1,5 @@
 # -*- coding: 1251 -*-
-#Дан массив из 10 чисел.Сколько элементов массива больше своих «соседей», т.е. предыдущего и последующего.
-#Первый и последний элементы не рассматривать.
+#Дан массив из 10 чисел. Сколько элементов массива больше своих «соседей», т.е. предыдущего и последующего. Первый и последний элементы не рассматривать.
 
 def calculate_number_of_elements_greater_neighbors(a):
   n=len(a);
@@ -15,5 +14,5 @@ def calculate_number_of_elements_greater_neighbors(a):
 
 arr=[1,2,3,4,6,5,7,8,9,10]
 
-print ("Массив:",arr);
-print ("Количество элементов массива больше своих соседей:",calculate_number_of_elements_greater_neighbors(arr));
+print ("Array :",arr);
+print ("Number of elements greater neighbors:",calculate_number_of_elements_greater_neighbors(arr));
